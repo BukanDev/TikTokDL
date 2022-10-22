@@ -4,7 +4,7 @@
 ## 📥 TikTokDL (BOT)
 ___
 
-Adalah bot Telegram yang berbasis [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) dan [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) dengan code yang simpel dan tidak memuaingkan bagi kaum awam adapun video yang di download memiliki kelebihan seperti di bawah ini : 
+Adalah bot Telegram yang berbasis [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) dan [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) dengan code yang simpel dan tidak memusingkan bagi kaum awam adapun video yang di download memiliki kelebihan seperti di bawah ini : 
 
 👉 Unduh Video dan Audio TikTok tanpa Watermark
 👉 Unduh Video dan Audio TikTok secara cepat

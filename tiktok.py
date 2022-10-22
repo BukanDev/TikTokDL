@@ -41,6 +41,6 @@ def tiktokdl(m):
             
         except Exception as e:
             print(e)
-            bot.send_message(m.chat.id, f'Sepertinya link yang kamu masukkan salah')
+            bot.send_message(m.chat.id, f'_Sepertinya link yang kamu masukkan salah_', parse_mode='Markdown')
         
 bot.polling()
