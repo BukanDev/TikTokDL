@@ -27,7 +27,9 @@ ___
 ## 💌 Telegram Support:
 ___
 
-<a href="https://t.me/aruna_mutual"><img src="https://img.shields.io/badge/ARUNA-black?style=for-the-badge&logo=Telegram"/></a><a href="https://t.me/PrimeSupportGroup"><img src="https://img.shields.io/badge/PRIME-black?style=for-the-badge&logo=Telegram"/></a>
+<a href="https://t.me/aruna_mutual"><img src="https://img.shields.io/badge/ARUNA-black?style=for-the-badge&logo=Telegram"/></a>
+
+<a href="https://t.me/PrimeSupportGroup"><img src="https://img.shields.io/badge/PRIME-black?style=for-the-badge&logo=Telegram"/></a>
 
 ## ⚠️ Peringatan
 ___
