@@ -13,7 +13,7 @@ import telebot
 from telebot import types
 import requests
 
-TOKEN = os.environ.get('TOKEN', '5444155072:AAEnO2c6esaOqI-QJurxfG9Oym1DDZeZHNg')
+TOKEN = os.environ.get('TOKEN')
 
 bot = telebot.TeleBot(TOKEN)
 me = bot.get_me()
