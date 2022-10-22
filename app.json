@@ -1,0 +1,12 @@
+{
+    "name": "TikTokDL",
+    "description": "[TikTokDL] adalah bot telegram untuk mengunduh video atau audio dari link tiktok yang berbasis pyTelegramBotAPI",
+    "repository": "https://github.com/BukanDev/TikTokDL",
+    "logo": "https://telegra.ph/file/aa4792ae1535cc79ae5a8.jpg",
+    "env": {
+        "TOKEN": {
+            "description": "Dapatkan di @BotFather",
+            "required": true
+        }
+    }
+}
