@@ -6,15 +6,33 @@ ___
 
 Adalah bot Telegram yang berbasis [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) dan [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) dengan code yang simpel dan tidak memusingkan bagi kaum awam adapun video yang di download memiliki kelebihan seperti di bawah ini : 
 
-👉 Unduh Video dan Audio TikTok tanpa Watermark
-👉 Unduh Video dan Audio TikTok secara cepat
+- 👉 Unduh Video dan Audio TikTok tanpa Watermark
+- 👉 Unduh Video dan Audio TikTok secara cepat
 
 ## 🛩️ Deploy Heroku
 ___
 
 <a href="https://heroku.com/deploy?template=https://github.com/BukanDev/TikTokDL"><img src="https://img.shields.io/badge/BUAT DIHEROKU-blue?style=for-the-badge&logo=heroku"/></a>
 
+## 🖥️ Deploy VPS
+___
 
+```console
+BukanDev@BukanDev$ git clone https://github.com/BukanDev/TikTokDL
+BukanDev@BukanDev$ cd TikTokDL
+BukanDev@BukanDev$ nano tiktok.py 
+BukanDev@BukanDev$ pip3 install -r requirements.txt
+BukanDev@BukanDev$ screen -S tiktok
+BukanDev@BukanDev$ python3 tiktok.py
+```
+
+## 📃 Vars
+___
+
+`TOKEN` - Dapatkan di [@BotFather](https://t.me/BotFather) lalu isikan di 
+```python
+TOKEN = os.environ.get('TOKEN', '162777288:IAKAKLAOI')
+```
 ## 🧑‍✈️ Credit
 ___
 
