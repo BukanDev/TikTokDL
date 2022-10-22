@@ -12,7 +12,7 @@ Adalah bot Telegram yang berbasis [pyTelegramBotAPI](https://github.com/eternnoi
 ## 🛩️ Deploy Heroku
 ___
 
-<a href="https://heroku.com/deploy?template=https://github.com/jokokendi/Music-Ken"><img src="https://img.shields.io/badge/BUAT DIHEROKU-blue?style=for-the-badge&logo=heroku"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/BukanDev/TikTokDL"><img src="https://img.shields.io/badge/BUAT DIHEROKU-blue?style=for-the-badge&logo=heroku"/></a>
 
 
 ## 🧑‍✈️ Credit
