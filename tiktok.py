@@ -28,19 +28,20 @@ def start_message(m):
 def tiktokdl(m):
     if m.text.startswith(('https://www.tiktok.com', 'http://www.tiktok.com', 'https://vm.tiktok.com', 'https://vt.tiktok.com')):
         try:
-            bot.send_message(m.chat.id, 'Processing...')
+            send = bot.reply_to(m, 'Processing...')
             url = requests.get(f'https://api.douyin.wtf/api?url={m.text}').json()
-            video = url['nwm_video_url']
-            audio = url['video_music_url']
+            video = url.get('nwm_video_url', None)
+            audio = url.get('video_music_url', None)
             videotitle = url['video_title']
             videomusictitle = url['video_music_title']
             autor = url['video_author_nickname']
             time = url['analyze_time']
             bot.send_video(m.chat.id, video, caption=f'*INFORMATION:*\n\n*- Video title:* {videotitle}\n*- Audio:* {videomusictitle}\n*- Author Nickname:* {autor}\n\n*Total parsing time:* {time} seconds', parse_mode='Markdown')
             bot.send_audio(m.chat.id, audio)
+            bot.delete_message(m.chat.id, send.message_id)
             
         except Exception as e:
             print(e)
-            bot.send_message(m.chat.id, f'_Sepertinya link yang kamu masukkan salah_', parse_mode='Markdown')
+            bot.edit_message_text(f'_Sepertinya link yang kamu masukkan salah_', m.chat.id, message_id=send.message_id, parse_mode='Markdown')
         
 bot.polling()
