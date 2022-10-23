@@ -22,7 +22,7 @@ print(f'Bot telah aktif @{me.username}')
 
 @bot.message_handler(commands=['start', 'help'])
 def start_message(m):
-	bot.send_message(m.chat.id, '*Selamat datang saya adalah bot untuk mengunduh video dari tiktok*\n\n*Caranya :* _Tinggal kirimkan saja link tiktok ke bot ini dan nanti anda kan di kirimkan video sesuai link_', parse_mode='Markdown')
+	bot.send_message(m.chat.id, '*Selamat datang saya adalah bot untuk mengunduh video dari tiktok*\n\n*Caranya :* _Tinggal kirimkan saja link tiktok ke bot ini dan nanti anda akan di kirimkan video sesuai link_', parse_mode='Markdown')
 
 @bot.message_handler(content_types=['text'])
 def tiktokdl(m):
