@@ -44,4 +44,4 @@ def tiktokdl(m):
             print(e)
             bot.edit_message_text(f'_Sepertinya link yang kamu masukkan salah_', m.chat.id, message_id=send.message_id, parse_mode='Markdown')
         
-bot.polling()
+bot.infinity_polling()
